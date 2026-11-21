@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMIRA.RENTALS | Camera & Outfit Rental</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,'Noto Sans Thai',sans-serif;color:#344653;background:#fff}
+header{padding:20px 7%;display:flex;justify-content:space-between;align-items:center;background:#fff}
+.logo{font-size:23px;font-weight:800;letter-spacing:2px;color:#52758b}
+nav a{margin-left:20px;text-decoration:none;color:#536b7a;font-size:14px}
+.hero{background:linear-gradient(135deg,#e8f5fa,#f8fcff,#e3f0f6);padding:75px 8%;text-align:center}
+.hero p{color:#6b899b;letter-spacing:3px;font-size:12px}
+.hero h1{font-size:clamp(38px,7vw,65px);margin:20px 0;color:#42647a;letter-spacing:2px}
+.hero h2{font-size:19px;font-weight:400;color:#607d8e}
+.btn{display:inline-block;margin-top:28px;padding:13px 30px;background:#7399ae;color:white;text-decoration:none;border-radius:30px}
+section{padding:60px 8%}
+.heading{text-align:center;margin-bottom:35px}
+.heading h2{color:#55788e;font-size:27px;margin-bottom:10px}
+.heading p{color:#92a7b4;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{border:1px solid #e6edf1;border-radius:17px;overflow:hidden;background:white}
+.photo{height:190px;background:linear-gradient(145deg,#e8f3f8,#f8fbfd);display:flex;align-items:center;justify-content:center;color:#9bb3c1;font-size:45px}
+.card-info{padding:20px}
+.card h3{font-size:18px;color:#496c82;margin-bottom:9px}
+.card p{font-size:13px;color:#8a9da8}
+.price{margin-top:15px;color:#527f99;font-weight:bold}
+.card a{display:block;text-align:center;margin-top:15px;padding:10px;border-radius:20px;background:#edf6fa;color:#547b91;text-decoration:none;font-size:13px}
+.about{background:#f5fafc;text-align:center}
+.about p{max-width:600px;margin:auto;line-height:1.9;color:#708794}
+footer{background:#eaf4f8;text-align:center;padding:35px 15px;color:#607d8e;font-size:13px;line-height:2}
+@media(max-width:650px){
+header{padding:18px 5%}
+nav a{margin-left:10px;font-size:12px}
+.grid{grid-template-columns:repeat(2,1fr);gap:12px}
+.photo{height:130px}
+.card-info{padding:13px}
+.card h3{font-size:15px}
+section{padding:45px 5%}
+}
+@media(max-width:380px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">AMIRA.RENTALS</div>
+<nav>
+<a href="#home">หน้าแรก</a>
+<a href="#camera">กล้อง</a>
+<a href="#about">เกี่ยวกับเรา</a>
+</nav>
+</header>
+
+<div class="hero" id="home">
+<p>CAMERA & OUTFIT RENTAL</p>
+<h1>AMIRA.RENTALS</h1>
+<h2>เช่ากล้องและชุดสวย ๆ ในราคาน่ารัก</h2>
+<a class="btn" href="#camera">เลือกชมกล้อง</a>
+</div>
+
+<section id="camera">
+<div class="heading">
+<h2>Our Collection</h2>
+<p>เลือกกล้องที่ใช่ สำหรับโมเมนต์พิเศษของคุณ</p>
+</div>
+<div class="grid">
+<div class="card">
+<div class="photo">📷</div>
+<div class="card-info">
+<h3>Digital Camera 01</h3>
+<p>กล้องดิจิทัล พร้อมใช้งาน</p>
+<div class="price">สอบถามราคาเช่า</div>
+<a href="#contact">รายละเอียดและจอง</a>
+</div>
+</div>
+<div class="card">
+<div class="photo">📸</div>
+<div class="card-info">
+<h3>Digital Camera 02</h3>
+<p>กล้องดิจิทัล พร้อมใช้งาน</p>
+<div class="price">สอบถามราคาเช่า</div>
+<a href="#contact">รายละเอียดและจอง</a>
+</div>
+</div>
+<div class="card">
+<div class="photo">📷</div>
+<div class="card-info">
+<h3>Digital Camera 03</h3>
+<p>กล้องดิจิทัล พร้อมใช้งาน</p>
+<div class="price">สอบถามราคาเช่า</div>
+<a href="#contact">รายละเอียดและจอง</a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="heading"><h2>About Amira</h2></div>
+<p>ร้านเช่ากล้องดิจิทัลและเช่าชุด ครบจบในที่เดียว
+ราคาดี กล้องสวย ชุดน่ารัก มีโปรโมชั่นบ่อย
+พร้อมบริการส่ง เพื่อให้ทุกโมเมนต์ของคุณพิเศษยิ่งขึ้น</p>
+</section>
+
+<footer id="contact">
+<strong>AMIRA.RENTALS</strong>
+<p>Camera & Outfit Rental</p>
+<p>สอบถามรายละเอียดและการจอง ติดต่อร้านค้า</p>
+<p>© 2026 Amira.rentals</p>
+</footer>
+</body>
+</html>
