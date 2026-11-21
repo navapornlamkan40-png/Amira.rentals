@@ -1,0 +1,18 @@
+
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "amira-rentals",
+  "main": "worker.js",
+  "compatibility_date": "2026-11-21",
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "amira-rentals-db",
+      "database_id": "a9751db8-ea62-41fb-a404-5083ab6d2753"
+    }
+  ]
+}
